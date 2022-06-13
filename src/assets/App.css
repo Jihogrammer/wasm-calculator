@@ -1,0 +1,42 @@
+main > h1 {
+  text-align: center;
+}
+
+#calculator {
+  display: grid;
+
+  width: 90vw;
+  margin: 2rem auto;
+}
+
+#display {
+  grid-column: 1 / 3;
+  grid-row: 1 / 1;
+}
+
+#options {
+  grid-column: 1 / 2;
+  grid-row: 2 / 2;
+}
+
+#numbers {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+#operators {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+#operators > p {
+  margin: 0;
+  text-align: center;
+  background-color: #CCC;
+
+  line-height: 3rem;
+}
+
+#operators > p:hover {
+  background-color: #FFF;
+}

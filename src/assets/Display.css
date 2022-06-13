@@ -1,0 +1,12 @@
+#display > p {
+  text-align: right;
+}
+
+#expression {
+  color: #CCC;
+}
+
+#result {
+  font-size: 2rem;
+  font-weight: bold;
+}
